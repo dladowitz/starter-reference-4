@@ -5,7 +5,7 @@
 <br>
 Here is what you should do to make it work.
 
-1. Run `git remove origin` so we don't overide this template again.
+1. Run `git remote remove origin` so we don't overide this template again.
 2. Add an application.yml file with environmental variables. Figaro is already setup and ready to go.
 3. Run `bundle exec rake db:migrate`.
 4. Run `bundle rake db:seed` to create the first user with admin rights.
